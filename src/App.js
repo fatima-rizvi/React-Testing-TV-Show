@@ -46,6 +46,7 @@ export default function App() {
         placeholder="Select an option"
       />
       <Episodes episodes={episodes} />
+      {console.log("Episodes: ", episodes)}
     </div>
   );
 }
